@@ -1,0 +1,4 @@
+CREATE TABLE admin.Players (
+    PlayerID INT PRIMARY KEY IDENTITY(1,1),
+    PlayerName NVARCHAR(50) NOT NULL
+);
